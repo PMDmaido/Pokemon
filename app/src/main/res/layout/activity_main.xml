@@ -16,17 +16,41 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/psyduck054"
+        app:srcCompat="@drawable/daco_5134879"
         tools:visibility="visible" />
 
     <Button
         android:id="@+id/pokeButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="40dp"
         android:text="Catch a wild Pokémon! "
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/srcurl"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="@+id/srcurl"
+        app:layout_constraintTop_toBottomOf="@+id/srcurl" />
+
+    <TextView
+        android:id="@+id/nameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Pokemon Name"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/pokeImage"
+        app:layout_constraintStart_toStartOf="@+id/pokeImage"
         app:layout_constraintTop_toBottomOf="@+id/pokeImage" />
+
+    <TextView
+        android:id="@+id/srcurl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Source and Pokedex Number"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/nameText"
+        app:layout_constraintStart_toStartOf="@+id/nameText"
+        app:layout_constraintTop_toBottomOf="@+id/nameText" />
 </androidx.constraintlayout.widget.ConstraintLayout>

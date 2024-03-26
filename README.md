@@ -53,6 +53,8 @@ GIF created with **your chosen GIF tool**
 
 Here's a place for any other notes on the app, it's creation process, or what you learned this unit!
 
+I have not yet finished this project. 
+
 ## License
 
 Copyright **yyyy** **your name**

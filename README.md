@@ -53,7 +53,7 @@ GIF created with **ScreenToGif**
 
 Here's a place for any other notes on the app, it's creation process, or what you learned this unit!
 
-I have not yet finished this project. 
+Update: I have finished this project. 
 
 ## License
 
